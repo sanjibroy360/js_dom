@@ -45,12 +45,12 @@
   liElements = ul.children;
   Array.from(liElements).forEach(el => el.style.backgroundColor = "aliceblue");
 
-  liElements[ liElements.length - 1 ].style.backgroundColor = "pink";
+  liElements[ liElements.length - 1 ].style.color = "pink";
   
   let mid = liElements[ Math.floor(liElements.length / 2) ];
 
-  mid.previousElementSibling.style.color = "coral";
-  mid.nextElementSibling.style.color = "aquamarine";
+  mid.previousElementSibling.style.backgroundColor = "coral";
+  mid.nextElementSibling.style.backgroundColor = "aquamarine";
 
   </script>
 </html>
