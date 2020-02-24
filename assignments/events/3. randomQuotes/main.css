@@ -1,0 +1,9 @@
+.quote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 22px;
+    padding-left: calc(30%);   
+}
