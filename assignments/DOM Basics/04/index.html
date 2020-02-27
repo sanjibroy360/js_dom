@@ -13,4 +13,23 @@
       <li>Hometown: <span id="hometown"></span></li>
     </ul>
   </body>
+  
+  <script>
+      document.body.style.fontFamily = "Verdana, Arial, Helvetica, sans-serif";
+      
+      document.querySelector("#nickname").innerText = "Jayanta";
+      document.querySelector("#favorites").innerText = "Capturing candid shots";
+      document.querySelector("#hometown").innerText = "RANIGANJ";
+
+      let li = document.querySelectorAll("li");
+      li.forEach(el => {
+        el.classList.add("listItems");
+        el.style.color = "red";
+      });
+
+      let image = document.createElement("img");
+      image.setAttribute("src","./assets/media/mypic.jpeg");
+      image.style.width = "400px";
+      document.body.appendChild(image);
+  </script>
 </html>
